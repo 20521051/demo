@@ -1,0 +1,13 @@
+.mainLayout {
+    display: flex;
+    min-height: 100vh;
+    --widthSideBar: 12rem;
+  }
+  
+  .content {
+    z-index: 10;
+    padding: 2rem;
+    flex: 0 0 calc(100% - var(--widthSideBar));
+    max-width: calc(100% - var(--widthSideBar));
+  }
+  
